@@ -7,9 +7,5 @@
 
 ## Pasos
 1. npm install
-2. node database/create_database.js
-3. node server.js
-4. Ir a localhost:8081/
-
-- Los endpoints pueden encontrarse en routes/index.js
-
+2. npm run start
+3. Ir a localhost:3000/
