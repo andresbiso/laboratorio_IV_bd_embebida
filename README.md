@@ -23,31 +23,23 @@ Recomendamos utilizar [chocolatey](https://chocolatey.org/install) para instalar
 ```
 choco install vscode
 ```
-- [nodejs-lts](https://community.chocolatey.org/packages/nodejs-lts)
+- [nodejs-lts](https://community.chocolatey.org/packages/nodejs-lts) -> v18.16.0
 ```
-choco install nodejs-lts
+choco install nodejs-lts --version 18.16.0
 ```
-- [sqlitebrowser](https://community.chocolatey.org/packages/sqlitebrowser)
+- [sqlitebrowser](https://community.chocolatey.org/packages/sqlitebrowser) -> v3.12.2
 ```
-choco install sqlitebrowser
+choco install sqlitebrowser --version 3.12.2
 ```
 ## Paquetes npm
-Recomendamos utilizar la versión de npm que viene incluído en la versión de nodejs LTS (v16.18.0) para instalar los siguientes paquetes:
-- [@angular/cli](https://www.npmjs.com/package/@angular/cli) -> v13-lts (tag)
+Recomendamos utilizar la versión de npm que viene incluído en la versión de nodejs LTS para instalar los siguientes paquetes:
+- [express](https://www.npmjs.com/package/express) -> v4.18.2
 ```
-npm install -g @angular/cli@v13-lts
+npm install -g express@4.18.2
 ```
-- [typescript](https://www.npmjs.com/package/typescript) -> v4.8.4
+- [sqlite3](https://www.npmjs.com/package/sqlite3) -> v5.1.6
 ```
-npm install -g typescript@4.8.4
-```
-- [sass](https://www.npmjs.com/package/sass) -> v1.55.0
-```
-npm install -g sass@1.55.0
-```
-- El resto de los paquetes utilizados se encuentran en el archivo package.json y pueden ser instalados localmente al proyecto con el comando:
-```
-npm install
+npm install -g sqlite3@5.1.6
 ```
 
 # :tada: Reconocimientos <a name = "acknowledgement"></a>
